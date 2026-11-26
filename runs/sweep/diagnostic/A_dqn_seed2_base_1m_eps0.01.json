@@ -1,0 +1,12 @@
+{
+  "run": "A_dqn_seed2_base_1m",
+  "eps": 0.01,
+  "distinct_games": 143,
+  "episodes": 200,
+  "success_rate": 0.47,
+  "failure_rate": 0.53,
+  "timeout_rate": 0.0,
+  "mean_return": 974.8,
+  "len_success": 456.0744680851064,
+  "len_failure": 582.7169811320755
+}

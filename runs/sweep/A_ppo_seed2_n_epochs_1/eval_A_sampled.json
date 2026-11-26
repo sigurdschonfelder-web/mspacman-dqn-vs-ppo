@@ -1,0 +1,18 @@
+{
+  "run": "A_ppo_seed2_n_epochs_1",
+  "algo": "ppo",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "sampled",
+  "seed": 2,
+  "tag": "n_epochs_1",
+  "interactions": 1000448,
+  "runtime_train_s": 710.8,
+  "episodes": 200,
+  "success_rate": 0.08,
+  "failure_rate": 0.92,
+  "timeout_rate": 0.0,
+  "mean_return": 541.05,
+  "len_success": 537.3125,
+  "len_failure": 554.8913043478261
+}

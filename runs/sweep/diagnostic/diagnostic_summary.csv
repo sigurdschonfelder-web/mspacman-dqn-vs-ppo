@@ -1,0 +1,6 @@
+run,greedy_success,greedy_score,greedy_distinct,eps0.01_success,eps0.01_score,eps0.01_distinct,eps0.05_success,eps0.05_score,eps0.05_distinct
+A_dqn_seed0_base_1m,1.0,1034.25,17,0.86,1005.3,78,0.56,929.75,182
+A_dqn_seed1_base_1m,1.0,1073.2,30,0.86,1034.05,123,0.655,964.3,189
+A_dqn_seed2_base_1m,0.0,960.4,30,0.47,974.8,143,0.58,962.25,186
+A_dqn_seed3_base_1m,0.245,879.7,30,0.335,843.8,169,0.465,870.55,197
+A_dqn_seed4_base_1m,1.0,1107.75,24,0.885,1075.35,91,0.675,1003.15,181

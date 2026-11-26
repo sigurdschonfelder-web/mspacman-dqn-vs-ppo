@@ -1,0 +1,18 @@
+{
+  "run": "A_ppo_seed3_learning_rate_0.0025",
+  "algo": "ppo",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "sampled",
+  "seed": 3,
+  "tag": "learning_rate_0.0025",
+  "interactions": 1000448,
+  "runtime_train_s": 941.8,
+  "episodes": 200,
+  "success_rate": 0.445,
+  "failure_rate": 0.555,
+  "timeout_rate": 0.0,
+  "mean_return": 893.85,
+  "len_success": 464.86516853932585,
+  "len_failure": 665.2972972972973
+}

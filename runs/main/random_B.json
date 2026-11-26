@@ -1,0 +1,11 @@
+{
+  "algo": "random",
+  "eval_setting": "B",
+  "episodes": 200,
+  "success_rate": 0.0,
+  "failure_rate": 1.0,
+  "timeout_rate": 0.0,
+  "mean_return": 256.2,
+  "len_success": NaN,
+  "len_failure": 493.465
+}

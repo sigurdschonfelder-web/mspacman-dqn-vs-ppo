@@ -1,0 +1,18 @@
+{
+  "run": "A_ppo_seed2_base_logged",
+  "algo": "ppo",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "sampled",
+  "seed": 2,
+  "tag": "base_logged",
+  "interactions": 1000448,
+  "runtime_train_s": 942.0,
+  "episodes": 200,
+  "success_rate": 0.31,
+  "failure_rate": 0.69,
+  "timeout_rate": 0.0,
+  "mean_return": 818.65,
+  "len_success": 533.6935483870968,
+  "len_failure": 651.572463768116
+}

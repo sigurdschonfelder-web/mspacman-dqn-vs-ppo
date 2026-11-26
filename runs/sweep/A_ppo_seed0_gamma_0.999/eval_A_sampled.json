@@ -1,0 +1,18 @@
+{
+  "run": "A_ppo_seed0_gamma_0.999",
+  "algo": "ppo",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "sampled",
+  "seed": 0,
+  "tag": "gamma_0.999",
+  "interactions": 1000448,
+  "runtime_train_s": 939.7,
+  "episodes": 200,
+  "success_rate": 0.175,
+  "failure_rate": 0.825,
+  "timeout_rate": 0.0,
+  "mean_return": 750.55,
+  "len_success": 595.8,
+  "len_failure": 637.8424242424243
+}

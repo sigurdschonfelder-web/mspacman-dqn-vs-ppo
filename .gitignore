@@ -1,0 +1,11 @@
+# trained models and snapshots live in the GitHub release (download_models.py)
+model.zip
+*.pt
+snapshots.zip
+*.part
+
+# local scratch
+__pycache__/
+.DS_Store
+*/_extracted/
+.venv/

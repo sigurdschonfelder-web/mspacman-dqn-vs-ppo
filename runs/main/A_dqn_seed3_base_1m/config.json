@@ -1,0 +1,61 @@
+{
+  "algo": "dqn",
+  "setting": "A",
+  "seed": 3,
+  "tag": "base_1m",
+  "budget": 1000000,
+  "interactions": 1000000,
+  "runtime_train_s": 2299.6,
+  "n_envs": 1,
+  "snapshots": [],
+  "hparams": {
+    "learning_rate": 0.00025,
+    "buffer_size": 100000,
+    "learning_starts": 10000,
+    "batch_size": 32,
+    "gamma": 0.99,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "target_update_interval": 1000,
+    "exploration_fraction": 0.2,
+    "exploration_initial_eps": 1.0,
+    "exploration_final_eps": 0.05,
+    "optimize_memory_usage": true,
+    "replay_buffer_kwargs": {
+      "handle_timeout_termination": false
+    }
+  },
+  "settings": {
+    "sticky": 0.0,
+    "step_penalty": 0.0,
+    "flip": false
+  },
+  "success_score": 1000,
+  "max_eval_steps": 5000,
+  "eval_seeds": [
+    1000,
+    1001,
+    1002,
+    1003
+  ],
+  "hardware": {
+    "platform": "Linux-7.3.4-1-cachyos-x86_64-with-glibc2.44",
+    "cpu": "",
+    "cores": 16,
+    "device": "cuda"
+  },
+  "versions": {
+    "python": "3.14.10",
+    "torch": "2.14.1+rocm7.2",
+    "sb3": "2.9.2",
+    "gymnasium": "1.4.0",
+    "ale_py": "0.12.1"
+  },
+  "observation_mode": "rgb",
+  "observation_shape": [
+    12,
+    84,
+    84
+  ],
+  "frame_stack": 4
+}

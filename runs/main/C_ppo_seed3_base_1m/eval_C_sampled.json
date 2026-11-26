@@ -1,0 +1,18 @@
+{
+  "run": "C_ppo_seed3_base_1m",
+  "algo": "ppo",
+  "train_setting": "C",
+  "eval_setting": "C",
+  "policy": "sampled",
+  "seed": 3,
+  "tag": "base_1m",
+  "interactions": 1000448,
+  "runtime_train_s": 934.3,
+  "episodes": 200,
+  "success_rate": 0.08,
+  "failure_rate": 0.92,
+  "timeout_rate": 0.0,
+  "mean_return": 618.95,
+  "len_success": 508.9375,
+  "len_failure": 621.9510869565217
+}

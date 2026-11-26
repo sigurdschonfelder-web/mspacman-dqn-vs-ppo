@@ -1,0 +1,18 @@
+{
+  "run": "A_dqn_seed4_exploration_fraction_0.5",
+  "algo": "dqn",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "greedy",
+  "seed": 4,
+  "tag": "exploration_fraction_0.5",
+  "interactions": 1000000,
+  "runtime_train_s": 2248.7,
+  "episodes": 200,
+  "success_rate": 0.18,
+  "failure_rate": 0.82,
+  "timeout_rate": 0.0,
+  "mean_return": 775.2,
+  "len_success": 382.52777777777777,
+  "len_failure": 665.1585365853658
+}

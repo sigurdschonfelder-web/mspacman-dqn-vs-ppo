@@ -1,0 +1,18 @@
+{
+  "run": "A_dqn_seed4_base_1m",
+  "algo": "dqn",
+  "train_setting": "A",
+  "eval_setting": "A",
+  "policy": "greedy",
+  "seed": 4,
+  "tag": "base_1m",
+  "interactions": 1000000,
+  "runtime_train_s": 2304.3,
+  "episodes": 200,
+  "success_rate": 1.0,
+  "failure_rate": 0.0,
+  "timeout_rate": 0.0,
+  "mean_return": 1107.75,
+  "len_success": 233.04,
+  "len_failure": NaN
+}
